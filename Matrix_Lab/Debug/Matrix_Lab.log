@@ -1,0 +1,24 @@
+﻿生成启动时间为 2016/11/28 13:09:50。
+     1>项目“C:\MMagton\IT01\Matrix_Dll\Matrix_Lab\Matrix_Lab\Matrix_Lab.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D MATRIX_LAB_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\Matrix_Lab.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D MATRIX_LAB_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D MATRIX_LAB_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Matrix_Lab.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Matrix_Lab.cpp
+         Matrix_Lab.cpp
+     1>c:\mmagton\it01\matrix_dll\matrix_lab\matrix_lab\matrix_lab.cpp(27): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\mmagton\it01\matrix_dll\matrix_lab\matrix_lab\matrix_lab.cpp(38): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 参见“strcpy”的声明
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\MMagton\IT01\Matrix_Dll\Matrix_Lab\Debug\Matrix_Lab.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\MMagton\IT01\Matrix_Dll\Matrix_Lab\Debug\Matrix_Lab.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\MMagton\IT01\Matrix_Dll\Matrix_Lab\Debug\Matrix_Lab.lib" /MACHINE:X86 /DLL Debug\dllmain.obj
+         Debug\Matrix_Lab.obj
+         Debug\stdafx.obj
+            正在创建库 C:\MMagton\IT01\Matrix_Dll\Matrix_Lab\Debug\Matrix_Lab.lib 和对象 C:\MMagton\IT01\Matrix_Dll\Matrix_Lab\Debug\Matrix_Lab.exp
+         Matrix_Lab.vcxproj -> C:\MMagton\IT01\Matrix_Dll\Matrix_Lab\Debug\Matrix_Lab.dll
+     1>已完成生成项目“C:\MMagton\IT01\Matrix_Dll\Matrix_Lab\Matrix_Lab\Matrix_Lab.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.44
